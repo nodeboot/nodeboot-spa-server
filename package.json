@@ -1,0 +1,33 @@
+{
+  "name": "nodeboot-spa-server",
+  "version": "1.0.0",
+  "description": "http server for any spa developed with react, angular, vue, etc with some few useful features",
+  "main": "index.js",
+  "bin": {
+    "nodeboot-spa-server": "src/server/SpaServer.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeboot/nodeboot-spa-server.git"
+  },
+  "keywords": [
+    "spa",
+    "http-serve",
+    "serve",
+    "react",
+    "angular",
+    "vue"
+  ],
+  "author": "JRichardsz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodeboot/nodeboot-spa-server/issues"
+  },
+  "homepage": "https://github.com/nodeboot/nodeboot-spa-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
